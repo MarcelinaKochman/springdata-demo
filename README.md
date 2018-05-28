@@ -44,7 +44,7 @@ W hierarchii utworzonego projektu wyszukujemy plik `pom.xml`. Otwieramy jego pod
 
 Do uruchomienia prostej ***Spring-Boot'owej*** aplikacji brakuje jeszcze klasy zawierającej metodę `main`. W katalogu `src/main/java` tworzymy nowy pakiet `com/wfiis/app`, a w nim następnie klasę `Application.java`.
 
-![Image - Application.java class and package](https://image.ibb.co/cXjS5y/3.png)
+![Image - Application.java class and package](https://image.ibb.co/b51j5y/3.png)
 
 Klasa ta powinna mieć następującą zawartość:
 ```
@@ -236,4 +236,5 @@ W tym momencie w oknie konsoli powinny wyświetlać się kolejno informacje na t
 2018-05-28 21:24:12.192  INFO 14904 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 ...
 2018-05-28 21:34:57.369  INFO 10028 --- [.mlab.com:37650] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:19790}] to ds137650-a.mlab.com:37650
+...
 ```
