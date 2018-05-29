@@ -304,5 +304,5 @@ Aby zobaczyć działanie paginacji należy dodać jeszcze kilka zatrudnionych o 
 - http://127.0.0.1:8080/employee?firstName=adam&lastName=cabacki&description=someotherdescription
 
 Tak przygotowana aplikacja powinna zwrócić pierwszą stronę wyników zatrudnionych o imieniu *adam*, posortowanych malejąco nazwiskiem, liczącą 2 wyniki, po uruchomieniu następującego endpointa:
--http://127.0.0.1:8080/employees/findByFirstName/adam/2/0  (pierwsza strona wyników)
--http://127.0.0.1:8080/employees/findByFirstName/adam/2/1  (druga strona wyników)
+- http://127.0.0.1:8080/employees/findByFirstName/adam/2/0  (pierwsza strona wyników)
+- http://127.0.0.1:8080/employees/findByFirstName/adam/2/1  (druga strona wyników)
